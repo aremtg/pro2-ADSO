@@ -1,3 +1,41 @@
 *{
-    background-color: coral;
+    background-color: rgb(234, 241, 131);
+    font-family:verdana;
+    cursor: url(../imagenes/flecha.png), auto;
+    background-color:none;
+}
+/* ENCABEZADO */
+.header{ 
+    top: 0%;
+    width: 100%;
+    border-radius: 0px 0px 50px 50px;
+    background-color: gold;
+    position:fixed;
+}
+
+/* BOTONES */
+.instructor {
+    border-radius: 50px;
+}
+.ingresar {
+    font-size: 33px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: blueviolet;
+}
+/* PIE DE PAGINA */
+footer{
+    position: relative;
+    top: 16rem;
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(172, 127, 202);
+}
+footer h1{
+    font-size: 26px;
+    background-color: rgb(172, 127, 202);
+    padding: 50px;
+    text-align: center;
+   
 }
