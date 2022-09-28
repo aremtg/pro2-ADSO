@@ -1,16 +1,4 @@
-*{
-    background-color: rgb(178, 161, 236);
-    font-family:verdana;
-    cursor: url(../imagenes/flecha.png), auto;
-    margin: 0;
-}
-/* ENCABEZADO */
-header{
-    background-color: rgb(93, 24, 128);
-    padding: 33px;
-    border-radius: 0px 0px 50px 50px;
 
-}
 
 /* BOTONES */
 .instructor{
@@ -19,9 +7,25 @@ header{
     border-radius: 50px;
     font-size: 15px;
 }
+.sesimg{
+border: solid black;
+border-radius: 40px;
+width: max-content;
+height: max-content;
+margin-bottom: 20px;
+margin-top: 300px;
+padding: 10px;
 
-.ingresar {
-    
+
+}
+
+.sesimg:hover{
+  transform: scale(1.02);
+}
+
+iframe{
+    width: 40%;
+    height: 600px;
 }
 
 /* FOOTER */

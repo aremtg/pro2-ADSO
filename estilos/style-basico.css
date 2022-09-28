@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(178, 161, 236);
+    font-family:verdana;
+   cursor: context-menu;
+    margin: 0;
+}
+/* ENCABEZADO */
+header{
+    background-color: rgb(93, 24, 128);
+    padding: 33px;
+    border-radius: 0px 0px 50px 50px;
+}
