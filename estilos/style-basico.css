@@ -1,12 +1,12 @@
 *{
-    background-color: rgb(178, 161, 236);
+    background-color:rgb(55, 18, 77);
     font-family:verdana;
-   cursor: context-menu;
+    cursor: url(/imagenes/flecha-cursor.png), auto;
     margin: 0;
 }
 /* ENCABEZADO */
 header{
-    background-color: rgb(93, 24, 128);
+    background-color: rgb(164, 140, 223);
     padding: 33px;
     border-radius: 0px 0px 50px 50px;
 }

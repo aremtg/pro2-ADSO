@@ -2,30 +2,31 @@
 
 /* BOTONES */
 .instructor{
-    display: flex;
-    margin: 0% auto;
-    border-radius: 50px;
-    font-size: 15px;
+    width: max-content;
+    cursor: url(/imagenes/mano-cursor.png),auto;
+    background-color: transparent;
 }
-.sesimg{
-border: solid black;
-border-radius: 40px;
-width: max-content;
-height: max-content;
-margin-bottom: 20px;
-margin-top: 300px;
-padding: 10px;
-
-
+.instructor img{
+  width: 150px;
+  height: 250px;
+  background-color: transparent;
 }
 
-.sesimg:hover{
-  transform: scale(1.02);
+.comunicarse{
+
+}
+.comunicarse a{
+  text-decoration-line: none;
+
+}
+.icono{
+  margin-top: 300px;
+  width: auto;
+
+}
+.icono img{
+  width: 350px;
 }
 
-iframe{
-    width: 40%;
-    height: 600px;
-}
 
 /* FOOTER */
